@@ -1,0 +1,10 @@
+{
+  "name": "OpsDesk IT Operations Dashboard",
+  "short_name": "OpsDesk",
+  "description": "A responsive IT service management dashboard for tickets, assets, and reporting.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3157d5",
+  "icons": []
+}
