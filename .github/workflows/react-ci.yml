@@ -1,0 +1,26 @@
+name: React Build Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'react-app/**'
+      - '.github/workflows/react-ci.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'react-app/**'
+      - '.github/workflows/react-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: react-app
+    steps:
+      - name: Checkout repository
