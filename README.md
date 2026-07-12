@@ -1,26 +1,18 @@
 # OpsDesk
 
-OpsDesk is a responsive IT service-management dashboard for managing support tickets, assets, service metrics, and reports.
+OpsDesk is a modern IT service-management dashboard for support tickets, corporate assets, service metrics, and reporting.
 
-## Features
+## Highlights
 
+- Demo authentication and session handling
+- Dashboard KPIs and SLA health indicators
 - Create, search, filter, advance, and delete support tickets
 - Priority and status tracking
-- Dashboard metrics and SLA performance
 - Corporate asset inventory
-- Ticket reports and CSV export
-- Dark mode
+- Reports and CSV export
+- Light and dark themes
 - Local browser persistence
-- Responsive desktop and mobile design
+- Responsive desktop, tablet, and mobile design
+- Automatic React build and GitHub Pages deployment workflow
 
-## Technologies
-
-HTML5, CSS3, JavaScript ES6+, Local Storage API, Progressive Web App support.
-
-## Run Locally
-
-Open `index.html` in a modern browser.
-
-## Author
-
-**Abdiaziz Mire** — Computer Science student and aspiring corporate technology professional.
+## React Front End
